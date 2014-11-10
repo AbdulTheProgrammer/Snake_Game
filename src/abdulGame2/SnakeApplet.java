@@ -58,7 +58,7 @@ public class SnakeApplet extends JApplet implements KeyListener, Runnable
 		{
 			if (!pause && !loss) 
 			{
-				s.update();
+				s.update(); // moves each element of the snake's body up one position in the array for movement
 
 				if (!turn) // if snake is not turning move snake body
 				{

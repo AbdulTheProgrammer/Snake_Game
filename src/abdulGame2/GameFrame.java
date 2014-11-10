@@ -3,7 +3,7 @@ package abdulGame2;
 import javax.swing.JFrame;
 
 @SuppressWarnings("serial")
-class GameFrame extends JFrame
+class GameFrame extends JFrame // this class allows the applet to be run as an application by embedding it onto a Jframe
 {
     public GameFrame()
     {
